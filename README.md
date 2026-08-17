@@ -41,7 +41,7 @@ sudo dpkg -i mysql-apt-config_0.8.39-1_all.deb
 
 During this step you'll get an interactive menu to pick which MySQL product/version repository to enable. Confirm `mysql-8.4-lts` is selected under **MySQL Server & Cluster**, then choose **Ok**.
 
-![MySQL APT config package selection screen](images/dpkg-install-output.png)
+![MySQL APT config package selection screen](https://github.com/bkoyaguru-DBA/MySQL-8.4-Installation-on-Ubuntu/blob/4581091783560b037a7b0c50da6831819a05b534/dpkg-install-output.png)
 
 ## 3. Refresh the package list
 
