@@ -21,7 +21,7 @@ Go to the MySQL Community Downloads page and select **Ubuntu Linux** as the OS (
 
 Click through to the APT repository setup page and download the DEB package:
 
-![MySQL APT Repository - download mysql-apt-config .deb package](images/apt-config-download.png)
+![MySQL APT Repository - download mysql-apt-config .deb package](https://github.com/bkoyaguru-DBA/MySQL-8.4-Installation-on-Ubuntu/blob/62a5481cf10addc9d42c0bdddcc03a2007406c90/apt-config-download.png)
 
 You may be prompted to log in or sign up for an Oracle account. You don't need an account — click **"No thanks, just start my download"** at the bottom of the page.
 
