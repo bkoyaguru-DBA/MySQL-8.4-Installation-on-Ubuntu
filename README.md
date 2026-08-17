@@ -17,7 +17,7 @@ This package adds Oracle's official MySQL repositories to your system so you can
 
 Go to the MySQL Community Downloads page and select **Ubuntu Linux** as the OS (the APT repository also supports Debian):
 
-![MySQL Community Downloads page - selecting Ubuntu Linux and Install Using APT](images/mysql-download-page.png)
+![MySQL Community Downloads page - selecting Ubuntu Linux and Install Using APT](https://github.com/bkoyaguru-DBA/MySQL-8.4-Installation-on-Ubuntu/blob/4e2bed4ed4f750d1f78fa276bab7464f7e2a018e/mysql-download-page.png)
 
 Click through to the APT repository setup page and download the DEB package:
 
