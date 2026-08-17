@@ -15,6 +15,20 @@ This guide installs MySQL Community Server 8.4 on Ubuntu/Debian using Oracle's o
 
 This package adds Oracle's official MySQL repositories to your system so you can install and update MySQL via `apt`.
 
+Go to the MySQL Community Downloads page and select **Ubuntu Linux** as the OS (the APT repository also supports Debian):
+
+![MySQL Community Downloads page - selecting Ubuntu Linux and Install Using APT](images/mysql-download-page.png)
+
+Click through to the APT repository setup page and download the DEB package:
+
+![MySQL APT Repository - download mysql-apt-config .deb package](images/apt-config-download.png)
+
+You may be prompted to log in or sign up for an Oracle account. You don't need an account — click **"No thanks, just start my download"** at the bottom of the page.
+
+![Oracle account login prompt - skip via "No thanks, just start my download"](images/oracle-login-prompt.png)
+
+Or skip the browser entirely and download directly from the terminal:
+
 ```bash
 wget https://dev.mysql.com/get/mysql-apt-config_0.8.39-1_all.deb
 ```
@@ -25,7 +39,9 @@ wget https://dev.mysql.com/get/mysql-apt-config_0.8.39-1_all.deb
 sudo dpkg -i mysql-apt-config_0.8.39-1_all.deb
 ```
 
-During this step you'll get an interactive menu to pick which MySQL product/version repository to enable. Confirm MySQL 8.4 is selected, then choose **Ok**.
+During this step you'll get an interactive menu to pick which MySQL product/version repository to enable. Confirm `mysql-8.4-lts` is selected under **MySQL Server & Cluster**, then choose **Ok**.
+
+![MySQL APT config package selection screen](images/dpkg-install-output.png)
 
 ## 3. Refresh the package list
 
