@@ -25,7 +25,7 @@ Click through to the APT repository setup page and download the DEB package:
 
 You may be prompted to log in or sign up for an Oracle account. You don't need an account — click **"No thanks, just start my download"** at the bottom of the page.
 
-![Oracle account login prompt - skip via "No thanks, just start my download"](images/oracle-login-prompt.png)
+![Oracle account login prompt - skip via "No thanks, just start my download"](https://github.com/bkoyaguru-DBA/MySQL-8.4-Installation-on-Ubuntu/blob/main/oracle-login-prompt.png?raw=true)
 
 Or skip the browser entirely and download directly from the terminal:
 
