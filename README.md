@@ -78,7 +78,8 @@ sudo systemctl enable mysql
 
 ## 7. Secure the installation
 
-Run this before using the server for anything real. It lets you confirm the root password, remove anonymous users, disable remote root login, and remove the test database.
+Run this before using the server for anything real. It lets you confirm the root password, remove anonymous users, disable remote root login.
+Note: test database doesn't exist in the latest releases.
 
 ```bash
 sudo mysql_secure_installation
